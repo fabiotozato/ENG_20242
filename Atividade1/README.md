@@ -133,7 +133,6 @@ print(uniao)
 
 RESULTADO: {1, 2, 3, 4, 5, 6}
 
---
 INTERSEÇÃO:
 
 ```python
@@ -147,7 +146,6 @@ print(uniao)
 
 RESULTADO: {3, 4}
 
---
 DIFERENÇA:
 
 ```python
@@ -161,7 +159,16 @@ print(uniao)
 
 RESULTADO: {1, 2}
 
-## QUESTÃO 12: Dada a lista [1, 2, 2, 3, 4, 4, 5], remova os elementos duplicados transformando a lista em um set. Ao final, exiba o set resultante, que deve conter apenas valores únicos.
+# QUESTÃO 12: Dada a lista [1, 2, 2, 3, 4, 4, 5], remova os elementos duplicados transformando a lista em um set. Ao final, exiba o set resultante, que deve conter apenas valores únicos.
+
+```python
+lista_duplicatas = [1, 2, 2, 3, 4, 4, 5]
+
+sem_duplicatas = list(set(lista_duplicatas))
+
+print(sem_duplicatas)
+```
+
 
 
 
