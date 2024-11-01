@@ -1,10 +1,12 @@
 ## QUESTÃO 1: Crie uma lista contendo cinco números inteiros de sua escolha. Em seguida, percorra essa lista e imprima o valor de cada elemento multiplicado por 2. O resultado deve mostrar o novo valor de cada elemento, um por vez.
 
+```python
 numeros = [5, 7, 15, 22, 31]
 
 for numero in numeros:
     dobro = numero * 2
     print(dobro)
+```
 
 ## QUESTÃO 2: Dada a lista ["maçã", "banana", "laranja", "uva"], remova o item "banana" da lista e adicione a fruta "melancia" no lugar. Depois, mostre a nova lista atualizada com as alterações feitas.
 
@@ -28,7 +30,7 @@ print(max(numeros))
 linguagens = ['Python', 'C#', 'JavaScript', 'Portugol', 'C++', 'C', 'Java']
 
 for linguagem in linguagens:
-    print(f'A linguagem {linguagem} possui {len(linguagem)} palavras.')
+    print(f'A linguagem {linguagem} possui {len(linguagem)} letras.')
 
 -----
 
@@ -96,6 +98,45 @@ else:
     print("Essa tupla não possui número 3!")
 
 ## QUESTÃO 11: Crie dois sets: set1 = {1, 2, 3, 4} e set2 = {3, 4, 5, 6}. Exiba a união dos dois sets (todos os elementos sem repetição), a interseção (elementos que aparecem nos dois sets) e a diferença (elementos presentes no primeiro set, mas não no segundo). Mostre os resultados de cada operação.
+
+UNIÃO:
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+uniao = set1 | set2
+
+print(uniao)
+
+RESULTADO: {1, 2, 3, 4, 5, 6}
+
+--
+INTERSEÇÃO:
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+uniao = set1 & set2
+
+print(uniao)
+
+RESULTADO: {3, 4}
+
+--
+DIFERENÇA:
+
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6}
+
+uniao = set1 - set2
+
+print(uniao)
+
+RESULTADO: {1, 2}
+
+## QUESTÃO 12: Dada a lista [1, 2, 2, 3, 4, 4, 5], remova os elementos duplicados transformando a lista em um set. Ao final, exiba o set resultante, que deve conter apenas valores únicos.
+
+
 
 
 
